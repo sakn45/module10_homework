@@ -1,0 +1,24 @@
+.buttonIcon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonText {
+    margin-right: 10px;
+    font-size: 1em;
+    color: #000;
+}
+
+.buttonIconContainerFirst, .buttonIconContainerLast {
+    display: flex;
+    align-items: center;
+}
+
+.buttonIcon svg {
+    width: 32px;
+    height: 32px;
+}
